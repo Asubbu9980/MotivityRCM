@@ -597,12 +597,15 @@ body{
 }
 .slider .single-slider .text{
 	margin-top:120px;
+	background: rgb(0 0 0 / 40%);
+	padding: 20px;
 }
 .slider.index2 .single-slider .text{
 	margin-top:150px;
 }
 .slider .single-slider h1 {
 	color: #2C2D3F;
+	color: #fff;
 	font-size: 38px;
 	font-weight: 700;
 	margin: 0;
@@ -613,7 +616,8 @@ body{
 	color:#1a76d1;
 }
 .slider .single-slider p {
-	color: #2C2D3F;
+	/* color: #2C2D3F; */
+	color: #fff;
 	margin-top: 27px;
 	font-weight: 400;
 }
@@ -673,15 +677,19 @@ body{
 }
 
 /* Slider Animation */
+.owl-item.active .single-slider .text{
+	animation: fadeInUp 1s both 0.6s;
+}
 .owl-item.active .single-slider h1{
-    animation: fadeInUp 1s both 0.6s;
+    animation: fadeInDown 1s both 1.2s;
 }
 .owl-item.active .single-slider p{
-    animation: fadeInUp 1s both 1s;
+    /* animation: fadeInUp 1s both 1s; */
 }
 .owl-item.active .single-slider .button{
     animation: fadeInDown 1s both 1.5s;
 }
+
 /*===========================
 	End Hero Area CSS
 =============================*/
@@ -1070,7 +1078,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background-image:url('img/call-bg.jpg');
+	background-image:url('img/slider5.jpg');
 	background-size:cover;
 	background-position:center;
 	position:relative;
