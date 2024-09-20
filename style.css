@@ -1734,10 +1734,10 @@ body{
 	position:relative;
 }
 .clients .single-clients{
-	
+	width: 280px;
 }
 .clients .single-clients img {
-	width: 100%;
+	/* width: 100%; */
 	cursor: pointer;
 	text-align: center;
 	float: none;
