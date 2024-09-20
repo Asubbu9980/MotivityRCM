@@ -1080,9 +1080,13 @@ body{
 .call-action{
 	background-image:url('img/slider5.jpg');
 	background-size:cover;
-	background-position:center;
+	background-position:center center !important;
 	position:relative;
 	background-repeat:no-repeat;
+}
+.call-action.overlay:before{
+	background-color: #000;
+	opacity: 0.5;
 }
 .call-action .content{
 	text-align:center;
