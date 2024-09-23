@@ -33,7 +33,7 @@ Version:	1.1
 [End Activation Code]
 =========================================*/ 
 (function($) {
-    "use strict";
+    // "use strict";
      $(document).on('ready', function() {
 	
         jQuery(window).on('scroll', function() {
@@ -82,7 +82,7 @@ Version:	1.1
 			loop:true,
 			autoplay:true,
 			smartSpeed: 500,
-			autoplayTimeout:3500,
+			autoplayTimeout:6000,
 			singleItem: true,
 			autoplayHoverPause:true,
 			items:1,
